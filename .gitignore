@@ -3,8 +3,9 @@
 */**.pdf
 */**.psd
 */**.ai
-*/scss
-*/less
-*/**.map
+*/**/scss
+*/**/less
+*/**/**.map
 */**.scssc
-*/work/
+*/**/work/
+*/**.aco
