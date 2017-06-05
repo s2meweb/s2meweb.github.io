@@ -42,17 +42,6 @@ margin-top:-18vw; margin-left: -18vw;
 overflow: hidden;}
 h1>a{width: 100%; height: 100%; background-image: url("../../img/dessertF/header/h1_logo.png"); background-repeat: no-repeat; background-position: center;  display: block; background-size: 90%;}
 
-/*---------page xy----------*/
-
-#macaronxy>div{position: absolute;}
-#macaronxy>div>img{background-position: center; background-size: 100%; background-repeat: no-repeat;}
-.yel{width: 7.3vw; height: 5.2vw; top: 20%; left: 32%;}
-.pin{width: 7.3vw; height: 5.2vw; top: 32%; left: 20%;}
-.pur{width: 7.3vw; height: 5.2vw; top: 39%; left: 80%;}
-.cho{width: 7.3vw; height: 5.2vw; top: 42%; left: 53%;}
-.min{width: 7.3vw; height: 5.2vw; top: 63%; left: 62%;}
-
-/*--------------------------*/
 
 .scroll{width: 4.081633vw; min-width: 5em;height: 2.040816vw; min-height: 2.5em; position: absolute; top: 95%; left: 50%; margin-left: -2.0408065vw; }
 .scroll>a{width: 80%; height: 80%;background-image:url("../../img/dessertF/header/scroll.png"); background-repeat: no-repeat; background-position: center; display: block; background-size: 80%; font-size: 0;}
