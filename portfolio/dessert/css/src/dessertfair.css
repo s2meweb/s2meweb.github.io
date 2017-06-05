@@ -42,6 +42,18 @@ margin-top:-18vw; margin-left: -18vw;
 overflow: hidden;}
 h1>a{width: 100%; height: 100%; background-image: url("../../img/dessertF/header/h1_logo.png"); background-repeat: no-repeat; background-position: center;  display: block; background-size: 90%;}
 
+/*---------page xy----------*/
+
+#macaronxy>div{position: absolute;}
+#macaronxy>div>img{background-position: center; background-size: 100%; background-repeat: no-repeat;}
+.yel{width: 7.3vw; height: 5.2vw; top: 20%; left: 32%;}
+.pin{width: 7.3vw; height: 5.2vw; top: 32%; left: 20%;}
+.pur{width: 7.3vw; height: 5.2vw; top: 39%; left: 80%;}
+.cho{width: 7.3vw; height: 5.2vw; top: 42%; left: 53%;}
+.min{width: 7.3vw; height: 5.2vw; top: 63%; left: 62%;}
+
+/*--------------------------*/
+
 .scroll{width: 4.081633vw; min-width: 5em;height: 2.040816vw; min-height: 2.5em; position: absolute; top: 95%; left: 50%; margin-left: -2.0408065vw; }
 .scroll>a{width: 80%; height: 80%;background-image:url("../../img/dessertF/header/scroll.png"); background-repeat: no-repeat; background-position: center; display: block; background-size: 80%; font-size: 0;}
 .scroll>a:hover{background-image:url("../../img/dessertF/header/scroll_hover.png");}
@@ -93,7 +105,7 @@ background-repeat: no-repeat; background-position: center;}
 .arrow{width: 100%; height: 0%; top: 10%; margin-top: -19vw; position: relative; z-index: 0;}
 .arrow>button{width:2vw; min-width: 1.875em; height: 7vw; min-height: 9.375em;top: 55%; margin-top: -3.5vw; position: absolute; background-size: 100%;  background-color: transparent; border: transparent; background-repeat: no-repeat; background-position: center;}
 .left{left:0; background-image: url(../../img/dessertF/section/dessert/left.png);}
-.right{right:0; background-image: url(../../img/dessertF/section/dessert/right.png);}
+.right{right:0.5em; background-image: url(../../img/dessertF/section/dessert/right.png);}
 .left:hover{background-image: url(../../img/dessertF/section/dessert/left_hover.png);}
 .right:hover{background-image: url(../../img/dessertF/section/dessert/right_hover.png);}
 
@@ -145,6 +157,7 @@ background-repeat: no-repeat; background-position: center;}
 #place>ul>li:nth-child(5){background-color: #fae509; border: 15px solid #fbf4a7; box-sizing: border-box;}
 #place>ul>li:nth-child(6)>a{background-image: url(../../img/dessertF/section/etcbox/place05.png);}
 
+#place>ul>li:hover{transition: all 0.3s }
 
 /*
 #place>ul>li:nth-child(1)<a:hover{}
@@ -192,10 +205,10 @@ padding-top: 13.333333vw;
 #location>h2{width: 35.416667vw; height:8.229267vw;}
 #location>h2>img{width: 100%; height: 100%; top: 5%; margin-top: -0.01vw;}
 #mapBox{width: 100%; height: 100%; position: relative; }
-#mapBox>div>a{backgroud-size: 100%; background-repeat: no-repeat; background-position: center; background-size: 100%;}
+#mapBox>div>a{background-size: 100%; background-repeat: no-repeat; background-position: center; background-size: 100%;}
 .map{width: 45.520vw; min-width: 45em; height: 28.375vw; min-height: 28em; position:absolute; margin-left: 2vw; top: 40%; margin-top: -23vw;}
 .map>a{width: 100%; height: 100%; display: block; background-image: url(../../img/dessertF/footer/location/map.png); background-size: 100%;}
-.map_info{width: 30.895833vw; height: 28.770833vw;  min-width: 30em; min-height: 30em; poaition: absolute; top: 50%; margin-top: 7.5vw; margin-left: 55.85vw;}
+.map_info{width: 30.895833vw; height: 28.770833vw;  min-width: 30em; min-height: 30em; position: absolute; top: 50%; margin-top: 7.5vw; margin-left: 55.85vw;}
 .map_info>a{width: 100%; height: 100%;top: 70%; display: block; background-image: url(../../img/dessertF/footer/location/map_info.png);}
 /*location ------------------------*/
 
