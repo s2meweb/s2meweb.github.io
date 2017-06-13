@@ -30,11 +30,58 @@
      		</ul>
      	</nav><!--gnb-->
      	<nav id="lnb">
-     		<ul class="hidden_wrap">
+     		<ul class="hidden_wrap" id="lnbbtn">
      			<li><a href="#"><span>NOTICE</span></a></li>
      			<li><a href="#"><span>FAQ</span></a></li>
-     			<li><a href="#"><span>TICKET</span></a></li>
+     			<li class="tk"><a href="#infoBox"><span>TICKET</span></a></li>
      		</ul>
+     		
+				
+     		<div class="modal">
+         <div class="notice">
+         
+	
+		<h3>공지사항</h3>
+					<br /><br />
+	
+	
+	<ul class="notiBody">
+		<li class="article" id="a1">
+			<p class="q"><a href="#a1">문화의 날 이벤트 안내</a></p>
+			<p class="a" style="display: block;">문화의 날을 맞이하여 혼족을 위한 "혼자서도 달콤하게" 이벤트를 실시합니다. 시식권 2장 증정! 1인 휴식 테이블 구비!</p>
+		</li>
+		<li class="article hide" id="a2">
+			<p class="q"><a href="#a2">쉐프쇼 &amp; 디저트 만들기 체험 안내</a></p>
+			<p class="a" style="display: none;">스타 쉐프들의 화려한 쿠킹쇼와 쉐프와 함께 디저트를 만들어보는 즐거운 시간! </p>
+		</li>
+		<li class="article hide" id="a3">
+			<p class="q"><a href="#a3">제 3회 디저트페어 부스 참여 공지</a></p>
+			<p class="a" style="display: none;">자세한 사항은 FAQ 또는 전화문의 주세요.</p>
+		</li>
+	</ul>
+
+					</div>
+        <div class="faq">
+         <form action="" method="post">
+         	<select name="class" id="class">
+         		<option value="0">티켓문의</option>
+						<option value="1">기타문의</option>
+         	</select><br /><br />
+         	
+         	제목<input type="text" name="title" /><br /><br />
+         	글쓴이<input type="text" name="nickname" /><br /><br />
+         	이메일<input type="text" name="email" /><br /><br />
+         	내용입력<br />
+         	
+         	<textarea name="content" id="content_text" rows="25" cols="93">
+         	</textarea><br /><br />
+         	<input type="submit" name="submit" value="글쓰기" />
+         </form>
+         
+					</div>
+       <div class="ticket">ticketlink 바로가기</div>
+					
+        </div><!--modal-->
      	</nav><!--lnb-->
      </div>
 			<h1 class="hidden_wrap"><a href=""><span>logo</span></a></h1><!--logo-->
@@ -175,13 +222,10 @@
   </div><!--wrap-->
   <!-- jquery -->
 
-<!--<script src="../js/src/dessertfair.js"></script>-->
 <script src="../js/src/onepagescroll.js"></script>
 <script src="../js/src/booth.js"></script>
+<script src="../js/src/df_modal.js"></script>
 
 </body>
 </html>
-
-
-
 
