@@ -47,7 +47,7 @@ box-sizing: border-box;}
   margin-left:-35vw; overflow-y:auto; display: none; border: 18px solid #777;}
 
 .modal>.notice>ul>li>p>a:hover{color: #777}
-.modal>.faq{}
+.modal>div:last-child{width: 0;height: 0; display: none;}
 
 h1{width: 37.44898vw; min-width: 30em; 
 	height:37.44898vw; min-height: 30em; border-radius: 100%; position:absolute; top: 55%; left: 50%;

@@ -4,7 +4,9 @@
 
   var lnb = $('#lnb');
   var lnbBtn = lnb.find('#lnbbtn').find('li');
+	var lnbl = lnbBtn.children().last();
   var mBox = $('.modal');
+	var lastM = mBox.children().last();
   
   lnbBtn.on('click', function(e){
     
@@ -30,14 +32,18 @@
     mBox.hide();
   });
   });
-  
-	var lnbl = lnbBtn.find('.tk').find('a');
+
 	lnbl.on('click', function(e){
 	e.preventDefault();
-		lnbl.find(this.hash).slideDown();
-	
+		
+		
+		var $this = $(this.hash);
+		var scrollre = $this.offset().top;
+		
+		
+		
+		$('html,body').animate({scrollTop:scrollre});
 	});
-
 
 
 
