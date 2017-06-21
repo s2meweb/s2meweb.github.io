@@ -1,40 +1,55 @@
 /*s2main.css*/
 /*base*/
 
-#wrap{width: 100%; height: 600%; background-color: #333;}
+#wrap{width: 100%; height: 400%; background-color: #333;}
+/*overflow-y: hidden*/
 
 /*-------headBox-----------*/
-#headBox{width: 100%; height: calc(100% / 6); background-color: #367; position: relative; padding:3vw; box-sizing: border-box;}
-h1{width: 60vw; min-width: 35em; height: 30vw; min-height: 15em; background-color: #fcc; position: absolute; top:50%; margin-top: -15vw; left: 50%; margin-left: -30vw;}
+#headBox{width: 100%; height: calc(100% / 4); background-color: #367; position: relative; padding:3vw; box-sizing: border-box;}
+h1{width: 60vw; min-width: 30rem; height: 30vw; min-height: 15rem; background-color: #fcc; position: absolute; top:50%; margin-top: -15vw; left: 50%; margin-left: -30vw;}
 h1>img{}
 
-#gnb{width: 15vw; min-width: 7em; height: 50vw; min-height:10em; position: fixed; top: 0; margin-top: 3vw; right: 0; margin-right: 3vw; z-index: 500;}
-.gnbUI{width: 5vw; height: 5vw; min-width: 5em; min-height: 5em; background-color: #416; position: inherit; right: 0; margin-right: 3vw;}
-#gnb>ul{width: 15vw; height: auto; background-color: #892; position: inherit; top: 0; margin-top: 9vw; right: 0; margin-right: 3vw;}
-#gnb>ul>li{}
+
+#gnb{width: 4vw; height: 20vw; min-width: 2rem; min-height: 10rem; background-color: #416; position: fixed; z-index: 500; right: 0; margin-right: 3vw; top: 50%; margin-top: -10vw;}
+#gnb>ol{width: 100%; height: 100%; min-width: inherit; min-height: inherit; }
+#gnb>ol>li{width: 4vw; height: 4vw; min-width: 2rem; min-height: 2rem; margin-bottom: 4vw; background-color: #fff; color : transparent; font-size: 0; border-radius: 100%;}
+#gnb>ol>li>a{width: 100%; height: 100%; }
+#gnb>ol>li>a:hover{}
+
+#gnb>ul{width: 15vw; height: 20vw; min-width: ; min-height: ; position: inherit; top: 50%; margin-top: -10vw; right: 0; margin-right: 8.5vw;}
+#gnb>ul>li{width: 100%; height: 4vw; margin-bottom: 4vw; color: #555; font-size: 2vw; line-height: 4vw; text-align: right;}
 #gnb>ul>li>a{}
 
-.scrolldown{width: 7vw; height: 7vw; min-width: 5em; min-height: 5em; background-color: #fff; position: absolute; margin-bottom: 0; bottom: 2vw; left: 50%; margin-left: -3.5vw;}
-.scrolldown>a{}
+.logo{width: 7vw; height: 7vw; min-width: 5rem; min-height: 5rem; background-color: #fff; position: absolute; margin-bottom: 0; bottom: 2vw; left: 50%; margin-left: -3.5vw;}
+.logo>a{}
 
 /*------about---------*/
-#about{width: 100%; height: calc(100% / 6 * 2); background-color: #967; position: relative;}
-.intro{width: 100%; height: 15%; background-color: #acc;}
-#about>div>p{color: #333; text-align: center; font-size: 7em; font-family: serif; padding-top: 0.9em;}
-.resume{width: 100%; height: 70%; background-color: #412; padding: 0.5em 10em; box-sizing: border-box;}
+#about{width: 100%; height: calc(100% / 4); background-color: #967; position: relative;}
+.intro{width: 100%; height: 15%; background-color: #acc; }
+#about>div>p{font-family: serif; text-align: center; font-size: 3rem; color: #333; line-height: 7rem;}
+.resume{width: 100%; height: 70%; background-color: #412; padding: 5em 5em; box-sizing: border-box; text-align: center;}
+.resume>h2{font-size: 2em;}
+.rebtn{width: 8rem; height: 2rem; position: absolute; bottom: 15%; margin-bottom: 2rem; left: 50%; margin-left: -4rem; line-height: 1.5vw;}
+.rebtn>button{width: 100%; height: 100%; font-size: 1rem; text-align: center;}
+.rebtn>button>a{}
+
+.myresume{}
+.myresume>img{}
+
 .motto{width: 100%; height: 15%; background-color: #abf;}
 
 
 /*-------portfolio-------*/
-#portfolio{width: 100%; height: calc(100% / 6 * 2); background-color: #fd4;}
-#rnb{}
-#rnb>ul{}
-#rnb>ul>li{}
+#portfolio{width: 100%; height: calc(100% / 4); background-color: #fd4;}
+#rnb{width: 50%; height: 10%; background-color: #fff;}
+#rnb>.list{width: 100%; height: 100%;}
+#rnb>.list>ul{width: 100%; height: 100%;}
+#rnb>.list>ul>li{width: 20%; height: 8vw; float: left; line-height: 4vw;}
 
 #contents{}
 
 /*-------footBox---------*/
-#footBox{width: 100%; height: calc(100% / 6); background-color: #3a3;}
+#footBox{width: 100%; height: calc(100% / 4); background-color: #3a3;}
 
 
 /*--------------------------respon-----------------------------*/
