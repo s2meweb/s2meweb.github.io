@@ -1,0 +1,82 @@
+/*s2main.css*/
+/*base*/
+
+body,html{width: 100%; height: 100%;}
+#wrap{width: 100%; height: 100%; /*overflow-y: hidden;*/}
+
+/*-------headBox-----------*/
+#headBox{width: 100%; height: 100%; background-color: #367; position: relative; padding:3vw; box-sizing: border-box;}
+h1{width: 60vw; min-width: 30rem; height: 30vw; min-height: 15rem; background-color: #fcc; position: absolute; top:50%; margin-top: -15vw; left: 50%; margin-left: -30vw;}
+h1>img{}
+
+
+#gnb{width: 4vw; height: 28vw; min-width: 2rem; min-height: 14rem; background-color: #416; position: fixed; z-index: 500; right: 0; margin-right: 3vw; top: 50%; margin-top: -10vw;}
+#gnb>ol{width: 100%; height: 100%; min-width: inherit; min-height: inherit;}
+#gnb>ol>li{width: 4vw; height: 4vw; min-width: 2rem; min-height: 2rem; margin-bottom: 4vw; background-color: #fff; color : transparent; font-size: 0; border-radius: 100%; overflow: hidden;}
+#gnb>ol>li>.indi{width: 100%; height: 100%; display: block; cursor: pointer; }
+#gnb>ol>li>.indi:focus{background-color: #fbd;}
+
+#gnb>ul{width: 20vw; height: 30vw; min-width: 10rem; min-height: 15rem; position: inherit; top: 50%; margin-top: -10vw; right: 0; padding-right: 5.5vw; margin-right: 3vw; z-index: -100;}
+#gnb>ul>li{width: 100%; height: 4vw; min-width: 8rem; min-height: 2.1rem; margin-bottom: 4vw; color: #555; font-size: 2vw; line-height: 4vw; text-align: right; }
+#gnb>ul>li>a{width: 100%; height: 100%; display: block; padding-right: 5.5vw;}
+
+.logo{width: 50vw; height: 7vw; min-width: 5rem; min-height: 5rem; background-color: #fff; position: absolute; margin-bottom: 0; bottom: 2vw; left: 0%; margin-left: 23vw;}
+.logo>a{}
+
+/*------about---------*/
+#about{width: 100%; height: 100% ; background-color: #967; position: relative;}
+.intro{width: 100%; height: 15%; background-color: #acc; }
+#about>div>p{font-family: serif; text-align: center; font-size: 3rem; color: #333; line-height: 7rem;}
+.resume{width: 100%; height: 70%; background-color: #412; padding: 5em 5em; box-sizing: border-box; text-align: center;}
+.resume>h2{font-size: 2em;}
+.rebtn{width: 8rem; height: 2rem; position: absolute; bottom: 15%; margin-bottom: 2rem; left: 50%; margin-left: -4rem; line-height: 0.5rem;}
+.rebtn>button{width: 100%; height: 100%; font-size: 1rem; text-align: center;}
+.rebtn>button>a{width: 100%; height: 100%;}
+
+.myresume{width: auto; height: 100vh; position: absolute; left: 0; margin-left:  -23.2vw; bottom: 0; margin-bottom: -8.25em;}
+.myresume>img{width: inherit; height: inherit;}
+
+.motto{width: 100%; height: 15%; background-color: #abf;}
+
+
+/*-------portfolio-------*/
+#portfolio{width: 100%; height: 100%; background-color: #fd4; position: relative;}
+#rnb{width: 30%; height: 10%;  min-width: 15rem; min-height: 5rem; background-color: #fff; position: absolute; left: 45%; margin-left: -15%;}
+#rnb>.list{width: 100%; height: 100%; min-width: 15rem; min-height: 5rem; padding-top: 3vw; box-sizing: border-box;}
+#rnb>.list>ul{width: 15rem; height: 5rem; background-color: #fcc; margin: 0 auto;}
+#rnb>.list>ul>li{width: auto; height: 4rem; float: left; line-height: 3rem; text-align: center; padding-left: 1.8em; font-size: 0.8em; box-sizing: border-box;}
+
+#rnb>dl{width: 31em; height: 32em; background-color: #fff; position: absolute; left: 50%; margin-left: -16em; bottom: 0; margin-bottom: -32em;}
+#rnb>dl>dd>ul{width: inherit; height: inherit; position: absolute; }
+#rnb>dl>dd>ul>li:nth-child(1){width: 14.7em; height: 20em; background-color: #fcd; margin: 0.5em; float: left;}
+#rnb>dl>dd>ul>li:nth-child(2){width: 14.7em; height: 9.75em; background-color: #fcd; margin: 0.5em; margin-left: 0; float: right;}
+#rnb>dl>dd>ul>li:nth-child(3){width: 14.7em; height: 9.75em; background-color: #fcd; margin: 0 0.5em 0.5em 0; float: right;}
+#rnb>dl>dd>ul>li:nth-child(4){width: 30em; height: 10.5em; background-color: #fcd; margin: 0.5em; margin-top: 0; float: right;}
+
+
+#process{width: 8rem; height: 2rem; position: absolute; left: 45%; margin-left: -4rem; bottom: 0; margin-bottom: 2rem; background-color: #fff; line-height: 0.5rem;}
+#process>button{width: 100%; height: 100%; font-size: 1rem; text-align: center;}
+
+/*-------footBox---------*/
+#footBox{width: 100%; height: 100%; background-color: #3a3;}
+.outro{}
+.outro>p{}
+.info{}
+.info>p{}
+.info>a{}
+.sns{}
+
+
+/*--------------------------respon-----------------------------*/
+
+/*mobile*/
+@media screen and (max-width:599px) {
+}
+	
+/*tablet*/
+@media screen and (min-width:600px) and (max-width:1023px) {
+}
+	
+/*pc*/
+@media screen and (min-width: 1024px) {
+}
