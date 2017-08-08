@@ -6,7 +6,7 @@
 	var resume = about.find('.rebtn').find('button');
 	var moBox = $('.myresume');
 	
-	moBox.hide();
+//	moBox.hide();
 	
 	resume.on('click', function(e){
 		
