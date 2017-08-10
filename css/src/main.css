@@ -34,7 +34,7 @@ h1>img{}
 .rebtn>button>a{width: 100%; height: 100%;}
 
 .myresume{width: auto; height: 98vh; position: absolute; left: 0; margin-left:  -23.2vw; bottom: -2vw; margin-bottom: -8.25em;}
-.myresume>img{width: inherit; height: inherit;}
+.myresume>a{width: inherit; height: inherit; background-image: url("../../resume.jpg");}
 
 .motto{width: 100%; height: 15%; background-color: #ccc;}
 
