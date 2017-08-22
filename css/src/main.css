@@ -24,19 +24,19 @@ h1>img{}
 .logo>a{}
 
 /*------about---------*/
-#about{width: 100%; height: 100% ; position: relative;}
+#about{width: 100%; height: 100% ; position: relative; background-color: #fff;}
 .intro{width: 100%; height: 15%; background-color: #ccc; }
 #about>div>p{font-family: serif; text-align: center; font-size: 3rem; color: #333; line-height: 7rem;}
 .resume{width: 100%; height: 70%; padding: 5em 5em; box-sizing: border-box; text-align: center;}
 .resume>h2{font-size: 2em;}
 .rebtn{width: 8rem; height: 2rem; position: absolute; bottom: 15%; margin-bottom: 2rem; left: 50%; margin-left: -4rem;}
-.rebtn>ul{width: 100%; height: 100%;}
-.rebtn>ul>li{width: 8rem; height: 2rem;}
-.rebtn>ul>li>button{width: 100%; height: 100%; font-size: 1rem; text-align: center; line-height: 1.5rem;}
-.rebtn>ul>li>button>a{width: 100%; height: 100%; display: block;}
+.rebtn>button{width: 8rem; height: 2rem; font-size: 1rem; text-align: center; line-height: 1.5rem; background-color: #ccc;}
+.rebtn>button>a{width: 100%; height: 100%; display: block;}
 
-.myresume{width: auto; height: 98vh; position: absolute; left: 0; margin-left:  -23.2vw; bottom: -2vw; margin-bottom: -8.25em;}
-.myresume>img{width: inherit; height: inherit;}
+.myresume{width: auto; height: 98vh; position: absolute; left: 0; margin-left: -23.2vw; bottom: -2vw; margin-bottom: -8.25em;}
+.myresume>img{width: inherit; height: inherit; }
+.myresume{display: none;}
+.myresume.active_box {display: block;}
 
 .motto{width: 100%; height: 15%; background-color: #ccc;}
 
@@ -48,14 +48,18 @@ h1>img{}
 #rnb>.list>ul{width: 15rem; height: 5rem; margin: 0 auto;}
 #rnb>.list>ul>li{width: auto; height: 4rem; float: left; line-height: 3rem; text-align: center; padding-left: 1.8em; font-size: 0.8em; box-sizing: border-box;}
 
-#rnb>dl{width: 40vw; min-width: 40em; height: 36vw; min-height: 40em; position: absolute; left: 45%; margin-left: -20vw; bottom: 0%; margin-bottom: -42em;}
-#rnb>dl>dd>ul{width: 100%; height: 100%; position: absolute; }
-#rnb>dl>dd>ul>li{background-color: #ccc;}
-#rnb>dl>dd>ul>li:nth-child(1){width: 49%; height: 68%; margin: 0.5%; float: left;}
-#rnb>dl>dd>ul>li:nth-child(2){width: 49%; height: 33.5%; margin: 0.5%; margin-left: 0; float: right;}
-#rnb>dl>dd>ul>li:nth-child(3){width: 49%; height: 33.5%; margin: 0.5%; float: right;}
-#rnb>dl>dd>ul>li:nth-child(4){width: 99%; height: 30%; margin: 0.5%; float: right;}
-#rnb>dl>dd>ul>li:nth-child(1)>a{width: 100%; height: 100%; background-image:url(); display: block;}
+#rnb>.tab_box{width: 40vw; min-width: 40em; height: 36vw; min-height: 40em; position: absolute; left: 45%; margin-left: -20vw; bottom: 0%; margin-bottom: -42em;}
+.tab_box>dl{width: 100%; height: 100%; position: absolute;}
+.tab_box>dl>dd>ul{width: 100%; height: 100%; position: absolute; }
+.tab_box>dl>dd>ul>li{background-color: #ccc;}
+.tab_box>dl>dd>ul>li:nth-child(1){width: 49%; height: 68%; margin: 0.5%; float: left;}
+.tab_box>dl>dd>ul>li:nth-child(2){width: 49%; height: 33.5%; margin: 0.5%; margin-left: 0; float: right;}
+.tab_box>dl>dd>ul>li:nth-child(3){width: 49%; height: 33.5%; margin: 0.5%; float: right;}
+.tab_box>dl>dd>ul>li:nth-child(4){width: 99%; height: 30%; margin: 0.5%; float: right;}
+.tab_box>dl>dd>ul>li:nth-child(1)>a{width: 100%; height: 100%; background-image:url(); display: block;}
+.tab>ul>li.active{background-color: transparent; color:#312; box-sizing: border-box; font-weight: bold;} 
+.tab_box>dl{display: none;}
+.tab_box>dl.active_box{display: block;}
 
 #process{width: 8rem; height: 2rem; position: absolute; left: 45%; margin-left: -3.5rem; bottom: 0; margin-bottom: 3rem; line-height: 0.5rem;}
 #process>button{width: 100%; height: 100%; font-size: 1rem; text-align: center; background-color: #ccc;}
