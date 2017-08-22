@@ -29,12 +29,14 @@ h1>img{}
 #about>div>p{font-family: serif; text-align: center; font-size: 3rem; color: #333; line-height: 7rem;}
 .resume{width: 100%; height: 70%; padding: 5em 5em; box-sizing: border-box; text-align: center;}
 .resume>h2{font-size: 2em;}
-.rebtn{width: 8rem; height: 2rem; position: absolute; bottom: 15%; margin-bottom: 2rem; left: 50%; margin-left: -4rem; line-height: 0.5rem;}
-.rebtn>button{width: 100%; height: 100%; font-size: 1rem; text-align: center;}
-.rebtn>button>a{width: 100%; height: 100%;}
+.rebtn{width: 8rem; height: 2rem; position: absolute; bottom: 15%; margin-bottom: 2rem; left: 50%; margin-left: -4rem;}
+.rebtn>ul{width: 100%; height: 100%;}
+.rebtn>ul>li{width: 8rem; height: 2rem;}
+.rebtn>ul>li>button{width: 100%; height: 100%; font-size: 1rem; text-align: center; line-height: 1.5rem;}
+.rebtn>ul>li>button>a{width: 100%; height: 100%; display: block;}
 
 .myresume{width: auto; height: 98vh; position: absolute; left: 0; margin-left:  -23.2vw; bottom: -2vw; margin-bottom: -8.25em;}
-.myresume>a{width: inherit; height: inherit; background-image: url("../../resume.jpg");}
+.myresume>img{width: inherit; height: inherit;}
 
 .motto{width: 100%; height: 15%; background-color: #ccc;}
 
