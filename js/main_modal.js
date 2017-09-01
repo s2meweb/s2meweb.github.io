@@ -5,41 +5,27 @@
 	var rebtn = $('.rebtn');
 	var mbtn = rebtn.find('.btn');
 	var moBox = $('.myresume');
-//	var img = moBox.attr("../resume.jpg")
 	
-	mbtn.addClass('active');
-	moBox.addClass('active_box');
-		
+  var close;
+
 	mbtn.on('click', function(e){
 		e.preventDefault();
 		
-		var $this = $(this);
-		
-		mbtn.removeClass('active');
-		mbtn.addClass('active');
-		
-		moBox.removeClass('active_box');
-		moBox.addClass('active_box');
-		
-		
-
-
-	
-   	moBox.prepend('<button type="button" class="close">닫기</button>');
-  	$('.close').css({width:'3.5em', height:'3.5em', backgroundColor:'#777',
-                   position:'absolute' , top:'0.2em', right:'90%', zIndex:500,
-                   color:'#fff', borderRadius:'100%', fontWeight:'bold'});
-  
-  var close = $('.close');
+	var $this = $(this);
+	moBox.addClass('active_box');
+	moBox.prepend('<button type="button" class="close">닫기</button>');
+	$('.close').css({width:'3.5em', height:'3.5em', backgroundColor:'#649',
+								 position:'absolute' , top:'0.05em', right:'0.6%', zIndex:500,
+								 color:'#fff', borderRadius:'100%', fontWeight:'bold', fontSize:'0.8em'});
+	close = $('.close');
  	close.on('click', function(e){
     e.preventDefault();
     moBox.find('.close').remove();
-    moBox.hide();
+		moBox.removeClass('active_box');
 	});
-		
-	});
+});
 	
-	//---------------resume_modal---------------------
+	//---------------resume_modal-end--------------------
 	
 	
 			var tabLi = $('.list').find('li');
@@ -65,6 +51,8 @@
         
       });
 	
-	//---------------tab_box------------------------------
+	//---------------tab_box-end-----------------------------
+	
+
 	
 })(this.jQuery);
