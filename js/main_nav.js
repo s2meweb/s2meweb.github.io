@@ -4,7 +4,7 @@
 
 	var gnb = $('#gnb');
 	var gnbA = gnb.find('li').find('a');
-	var timed = 1000;
+	var timed = 500;
       
       gnbA.on('click', function(e){
         e.preventDefault(); 
