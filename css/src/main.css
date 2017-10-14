@@ -57,7 +57,7 @@ h1>img{width: inherit; height: auto;}
 .tab_box>dl>dd>ul{width: 100%; height: 100%; position: absolute; }
 .tab_box>dl>dd>ul>li{background-color: #ccc; overflow: hidden;}
 .tab_box>dl>dd>ul>li:nth-child(1){width: 49%; height: 68%; margin: 0.5%; float: left;}
-.tab_box>dl>dd>ul>li:nth-child(2){width: 49%; height: 33.5%; margin: 0.5%; margin-left: 0; float: right;}
+.tab_box>dl>dd>ul>li:nth-child(2){width: 49%; height: 33.5%; margin: 0.5%; margin-left: 0; float: right; background-position: center; background-size: 150%; background-repeat:  no-repeat;}
 .tab_box>dl>dd>ul>li:nth-child(3){width: 49%; height: 33.5%; margin: 0.5%; float: right;}
 .tab_box>dl>dd>ul>li:nth-child(4){width: 99%; height: 30%; margin: 0.5%; float: right;}
 .tab_box>dl>dd>ul>li>a>img:hover{transform: scale(1.2, 1.2); transition: all 0.4s ease-in;}
